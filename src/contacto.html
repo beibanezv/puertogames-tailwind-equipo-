@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto | PuertoGames</title>
+  <link href="./output.css" rel="stylesheet" />
+</head>
+<body class="bg-white-100">
+
+  <!-- Barra de navegación -->
+  <nav class="bg-orange-600 p-4 shadow-lg">
+  <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="index.html" class="flex items-center">
+      <img src="logo.png" alt="PuertoGames Logo" class="h-8 w-8 mr-2">
+      <span class="font-bold text-xl text-gray-800">PuertoGames</span>
+    </a>
+    <div>
+      <a href="index.html" class="text-gray-700 hover:text-blue-600 mx-2">Inicio</a>
+      <a href="productos.html" class="text-gray-700 hover:text-blue-600 mx-2">Productos</a>
+      <a href="contacto.html" class="text-gray-700 hover:text-blue-600 mx-2">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+  <!-- Sección Hero -->
+  <section class="bg-cover bg-center h-64 flex items-center justify-center" style="background-image: url('fondo.png');">
+  <div class="bg-black bg-opacity-50 p-8 rounded">
+    <h1 class="text-4xl font-bold text-white mb-4">Habla con nosotros!</h1>
+  </div>
+</section>
+
+  <!-- Formulario de contacto -->
+  <section class="container mx-auto my-12 px-4 md:px-0">
+    <h2 class="text-2xl font-bold mb-6 text-center">¿Tienes alguna consulta?</h2>
+    <form class="max-w-2xl mx-auto bg-white p-6 rounded shadow space-y-4" action="https://formsubmit.co/be.ibanezv@duocuc.cl" method="POST">
+      <div>
+        <label for="nombre" class="block font-semibold mb-1">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" class="w-full border border-gray-300 p-2 rounded" required>
+      </div>
+      <div>
+        <label for="email" class="block font-semibold mb-1">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" class="w-full border border-gray-300 p-2 rounded" required>
+      </div>
+      <div>
+        <label for="mensaje" class="block font-semibold mb-1">Mensaje</label>
+          
+      </div>
+      <div class="text-center">
+        <button type="submit" class="bg-orange-600 text-white px-6 py-2 rounded hover:bg-orange-700 transition">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-orange-600 text-white text-center py-4">
+    <h2 class="text-xl font-bold">¿Prefieres hablar directamente?</h2>
+    <p class="mt-2">Llámanos al <span class="font-semibold">+56 9 1234 5678</span> o visítanos en nuestras redes sociales.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4">
+    <p>&copy; 2025 PuertoGames. Todos los derechos reservados.</p>
+  </footer>
+  
+</body>
+</html>
